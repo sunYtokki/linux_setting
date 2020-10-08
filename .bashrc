@@ -171,6 +171,7 @@ export LLVM_HOME=/home/syk2145/llvm/llvm-project/;
 #/home/syk2145/llvm/llvm-project/build
 export LLVM_BD=$LLVM_HOME/build
 export LLVM_T=$LLVM_HOME/clang/tools
+export LLVM_BIN=$LLVM_HOME/build/bin
 
 export CUR=/home/syk2145/PLT/assignment-2-syntax-analysis-sunYtokki
 
