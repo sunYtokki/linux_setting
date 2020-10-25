@@ -165,6 +165,8 @@ alias nvimrc="nvim ~/.config/nvim/init.vim"
 alias vim="nvim"
 alias bashrc="vim ~/.bashrc"
 
+export NVIM='/home/syk2145/.config/nvim'
+
 #llvm PATH
 export LLVM_HOME=/home/syk2145/llvm/llvm-project/;
 
