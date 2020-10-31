@@ -156,6 +156,8 @@ function load_prompt () {
 }
 load_prompt
 
+xmodmap .xmodmaprc
+
 export EDITOR='nvim'
 
 alias ll='ls -lF'
