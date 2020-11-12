@@ -121,16 +121,16 @@ vnoremap > >gv
 nnoremap <silent> <esc><esc> :noh<return>
 
 " naviate between pane
-nnoremap <C-h> <C-w><C-h>
-nnoremap <C-l> <C-w><C-l>
-nnoremap <C-k> <C-w><C-k>
-nnoremap <C-j> <C-w><C-j>
+nnoremap wh <C-w><C-h>
+nnoremap wl <C-w><C-l>
+nnoremap wk <C-w><C-k>
+nnoremap wj <C-w><C-j>
 
 "resize pane
 if bufwinnr(1)
     noremap <S-up> :resize +5<CR>
     noremap <S-down> :resize -5<CR>
-    noremap <S-rght> :vertical resize +5<CR>
+    noremap <S-right> :vertical resize +5<CR>
     noremap <S-left> :vertical resize -5<CR>
 endif
 
